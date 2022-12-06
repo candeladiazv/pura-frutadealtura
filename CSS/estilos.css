@@ -1,22 +1,64 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 header {
     display:flex;
     justify-content: space-between;
     align-items: right;
-    background-image: url(../multimedia/imagen-header-FV.png);
-    background-size: width 1350px height 656px;
-    width: 1350px;
-    height: 656px;
-    max-width: 1350px;
-    max-height: 656px;
+    width: 100%;
+    max-width: 1366px;
+    position: fixed;
+    transition: 0.7s;
+    z-index: 10;
+}
+header.abajo {
+    background-color: rgb(153, 154, 165);
+}
+header ul li a {
+    position: relative;
+    transition: 0.7s;
+}
+header ul li a:hover {
+    background-color: rgb(183, 183, 192);
 }
 nav ul {
     display:flex;
     list-style: none;
+    position: relative;
+    transition: 0.7s;
+    z-index: 10;
+    color: white;
+}
+.icon-menu:before {
+    content: "\2630";
+  }
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 70px;
+    margin-left: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display:none;
+}
+.hero {
+    position: relative;
+    background-image: url(../multimedia/imagen-hero-VF.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroImg img {
+    max-width: 280px;
 }
 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -66,11 +108,6 @@ nav a {
 nav a:hover {
     color: white;
 }
-.imagenFondo {
-    background-image: url(https://s3.us-west-1.amazonaws.com/noti.com.ar/wp-content/uploads/2019/03/03171224/valledeuco-1024x673.jpg);
-    height: 500px;
-    text-align:center;
-}
 .fila {
     width:50%;
     display:flex;
@@ -79,11 +116,8 @@ nav a:hover {
 .col2 {
     justify-content: right;
 }
-#nosotros {
+.sobreNos {
     background-color: rgb(236, 241, 245);
-    padding:25px;
-    display: flex;
-    flex-direction: row;
 }
 #productos {
     text-align:center;
@@ -95,6 +129,9 @@ nav a:hover {
     justify-content: space-between;
     justify-content: center;
     align-items: center;
+}
+.verMas {
+    color:white;
 }
 .fila {
     display:flex;
@@ -133,6 +170,11 @@ nav a:hover {
 }
 #sobrenosotros {
     background-color: rgb(236, 241, 245);
+    padding:25px;
+    display: flex;
+    flex-direction: row;
+}
+#nuestroLugar {
     padding:25px;
     display: flex;
     flex-direction: row;
@@ -191,9 +233,73 @@ footer {
     align-items: flex-end;
 }
 .info {
-    margin-left: 75%;
-    margin-bottom: 15px;
+    margin-left: 78%;
+    margin-bottom: 10px;
     text-align: end;
     color: white;  
 }
+.info h5 {
+    font-size: 14px;
+}
+@media (max-width:1220px) {
+    #encontranos {
+        flex-direction: column;
+       }
+       .dondeNosEncontramos {
+        text-align: center;
+        margin-left: 0;
+        }
+}
+@media (max-width: 952px) {
+   .logo {
+        padding-left:20px;
+   }
+   nav ul li a {
+        font-size:16px;
+   }
+   #encontranos {
+    flex-direction: column;
+   }
+   .dondeNosEncontramos {
+    text-align: center;
+    margin-left: 0;
+    }
+    .info {
+        font-size: 16px;
+    }
+    .sobreNos {
+        padding: 20px;
+    }
+}
+@media (max-width: 858px) {
+   .checkbtn {
+        display:block;
+    }
+   header nav ul {
+    position: fixed;
+    width:100%;
+    height: 100vh;
+    background-color:rgb(144, 163, 179);
+    top:80px;
+    left:100%;
+    text-align: center;
+    transition: all .5s;
+    }
+   header nav ul li {
+    display:block;
+    margin:50px 0;
+    line-height:30px;
+    }
+   header nav ul li a {
+    font-size:20px;
+    }
+    #check:checked ~ nav ul{
+    left:0;
+    display: block;
+    }
+    .logo {
+        display:none;
+    }
+}
+   
 
