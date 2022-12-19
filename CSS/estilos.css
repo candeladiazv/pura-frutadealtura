@@ -93,14 +93,6 @@ nav a {
     color: rgb(243, 243, 243);
     margin-right: 20px;
 }
-.fila {
-    width:50%;
-    display:flex;
-    flex-direction: column;
-}
-.col2 {
-    justify-content: right;
-}
 .sobreNos {
     background-color: rgb(238, 255, 220);
 }
@@ -118,19 +110,6 @@ nav a {
 .verMas {
     color:white;
     border: solid 1px;
-}
-.fila {
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
-}
-.col {
-    display: flexbox;
-    flex-direction: row;
-    justify-content:center;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 #noticias {
     text-align:center;
@@ -210,12 +189,6 @@ nav a {
 }
 .mainContacto {
     padding-top: 90px;
-}
-.encontranos {
-    margin-left: 450px;
-}
-.consulta {
-    margin-left: 50px;
 }
 footer {
     background-color:rgb(157, 184, 129);

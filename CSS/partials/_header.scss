@@ -1,0 +1,78 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    transition: 0.7s;
+    z-index: 10;
+
+    #check {
+        display:none;
+    }
+
+    .checkbtn {
+        font-size: 30px;
+        color: #fff;
+        float: right;
+        line-height: 80px;
+        margin-right: 70px;
+        margin-left: 30px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .logo {
+        display:flex; 
+
+        & img {
+            height: 80px;
+            margin-right: 20px;
+            padding: 20px;
+        }
+    }
+
+    .abajo {
+        background-color: rgb(157, 184, 129);
+    }
+
+    ul li a {
+        position: relative;
+        transition: 0.7s;
+
+        &:hover {
+            background-color: rgb(136, 163, 107);;
+            padding: 2px;
+            padding-left: 12px;
+            padding-right: 12px;
+            transition: all 0.3s;
+        }
+    }
+
+    nav ul {
+        display:flex;
+        list-style: none;
+        position: relative;
+        transition: 0.7s;
+        z-index: 10;
+        color: white;
+    }
+    .colorFondo {
+        background-color: rgb(157, 184, 129);
+    }
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    margin-right: 15px;
+    margin-top: 25px;
+    font-size: 15px;
+    
+    a {
+        color: rgb(243, 243, 243);
+        margin-right: 20px;
+    }
+}

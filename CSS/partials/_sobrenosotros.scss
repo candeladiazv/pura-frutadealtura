@@ -1,0 +1,34 @@
+#sobrenosotros {
+    background-color: rgb(238, 255, 220);
+    padding-top:150px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+
+    .separar {
+        margin-left: 20%;
+        text-align: justify;
+        justify-content: center;
+    }
+
+    .subtitulo {
+        margin-left: 20px;
+        text-align: justify;
+        display:flex;
+        justify-content: center;
+    }
+}
+#nuestroLugar {
+    padding:25px;
+    display: flex;
+    flex-direction: row;
+
+    .subtitulo {
+        margin-left: 20px;
+        text-align: justify;
+        display:flex;
+        justify-content: center;
+    }
+}

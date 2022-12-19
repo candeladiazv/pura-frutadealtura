@@ -1,0 +1,59 @@
+.hero {
+    position: relative;
+    background-image: url(../multimedia/imagen-hero-VF.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    .heroImg img {
+        max-width: 280px;
+    }
+}
+.sobreNos {
+    background-color: rgb(238, 255, 220);
+}
+#productos {
+    text-align:center;
+    background-color: white;
+    padding: 25px;
+    display:flex;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+    #tarjeta:hover {
+        transform: scale(1.2);
+        transition: all 0.3s;
+    } 
+}
+.verMas {
+    color:white;
+    border: solid 1px;
+}
+#noticias {
+    text-align:center;
+    background-color: rgb(238, 255, 220);
+    padding: 25px;
+
+    .iframes {
+        margin-top: 15px;
+    }
+}
+#encontranos {
+    background-color: white;
+    padding:25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .dondeNosEncontramos {
+        text-align: end;
+        margin-left: 220px;
+     }
+}

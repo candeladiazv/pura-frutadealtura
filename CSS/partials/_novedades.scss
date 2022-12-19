@@ -1,0 +1,22 @@
+.mainNovedades {
+    padding-top: 120px;
+
+    #titulodelaPag {
+        padding:25px;
+        text-align:center;
+    }
+
+    #listadoNovedades {
+        margin-left: 20px;
+
+        #Iframe {
+            display:flex;
+            flex-direction: row;
+            padding: 25px;
+
+            .legadoFamiliar {
+                margin-left: 20px;
+            }
+        }
+    }
+}
