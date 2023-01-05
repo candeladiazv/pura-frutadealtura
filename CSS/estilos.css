@@ -18,17 +18,17 @@ header {
     z-index: 10;
 }
 .colorFondo {
-    background-color: rgb(157, 184, 129);
+    background-color: rgb(120, 139, 156);
 }
 header.abajo {
-    background-color: rgb(157, 184, 129);
+    background-color: rgb(120, 139, 156);
 }
 header ul li a {
     position: relative;
     transition: 0.7s;
 }
 header ul li a:hover {
-    background-color: rgb(136, 163, 107);;
+    background-color: rgb(77, 107, 128);;
     padding: 2px;
     padding-left: 12px;
     padding-right: 12px;
@@ -94,7 +94,7 @@ nav a {
     margin-right: 20px;
 }
 .sobreNos {
-    background-color: rgb(238, 255, 220);
+    background-color: rgb(216, 235, 240);
 }
 #productos {
     text-align:center;
@@ -113,7 +113,7 @@ nav a {
 }
 #noticias {
     text-align:center;
-    background-color: rgb(238, 255, 220);
+    background-color: rgb(216, 235, 240);
     padding: 25px;
 }
 .iframes {
@@ -131,7 +131,6 @@ nav a {
    margin-left: 220px;
 }
 #sobrenosotros {
-    background-color: rgb(238, 255, 220);
     padding-top:150px;
     padding-right: 60px;
     padding-left: 60px;
@@ -182,7 +181,7 @@ nav a {
     margin-left: 20px;
 }
 #infoContacto {
-    background-color: rgb(238, 255, 220);
+    background-color: rgb(216, 235, 240);
     padding:25px;
     display: flex;
     flex-direction: row;
@@ -191,7 +190,7 @@ nav a {
     padding-top: 90px;
 }
 footer {
-    background-color:rgb(157, 184, 129);
+    background-color:rgb(120, 139, 156);
     display: flex;
     flex-direction: row;
     align-items: flex-end;
