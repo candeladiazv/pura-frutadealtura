@@ -34,7 +34,7 @@ header {
     }
 
     .abajo {
-        background-color: rgb(157, 184, 129);
+        background-color: rgb(120, 139, 156);
     }
 
     ul li a {
@@ -42,7 +42,7 @@ header {
         transition: 0.7s;
 
         &:hover {
-            background-color: rgb(136, 163, 107);;
+            background-color: rgb(120, 139, 156);
             padding: 2px;
             padding-left: 12px;
             padding-right: 12px;
@@ -59,7 +59,7 @@ header {
         color: white;
     }
     .colorFondo {
-        background-color: rgb(157, 184, 129);
+        background-color: rgb(120, 139, 156);
     }
 }
 a {

@@ -14,7 +14,7 @@
     }
 }
 .sobreNos {
-    background-color: rgb(238, 255, 220);
+    background-color: rgb(216, 235, 240);
 }
 #productos {
     text-align:center;
@@ -38,11 +38,16 @@
 }
 #noticias {
     text-align:center;
-    background-color: rgb(238, 255, 220);
+    background-color: rgb(216, 235, 240);
     padding: 25px;
 
     .iframes {
         margin-top: 15px;
+        position:relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+
     }
 }
 #encontranos {
